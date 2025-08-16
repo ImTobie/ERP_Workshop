@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review &amp; Deploy on AWS System Manager</title>
+    <link>//localhost:1313/6-launchwizard/6.3-review-deploy/</link>
+    <description>Recent content in Review &amp; Deploy on AWS System Manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/6-launchwizard/6.3-review-deploy/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

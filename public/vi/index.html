@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Session Management :: AWS System Manager</title>
+    <title>Di chuyển hệ thống ERP với SAP trên AWS :: AWS System Manager</title>
 
     
-    <link href="/css/nucleus.css?1755029862" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1755029862" rel="stylesheet">
-    <link href="/css/hybrid.css?1755029862" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1755029862" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1755029862" rel="stylesheet">
-    <link href="/css/auto-complete.css?1755029862" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1755029862" rel="stylesheet">
-    <link href="/css/theme.css?1755029862" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1755029862" rel="stylesheet">
+    <link href="/css/nucleus.css?1755362518" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1755362518" rel="stylesheet">
+    <link href="/css/hybrid.css?1755362518" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1755362518" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1755362518" rel="stylesheet">
+    <link href="/css/auto-complete.css?1755362518" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1755362518" rel="stylesheet">
+    <link href="/css/theme.css?1755362518" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1755362518" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1755029862" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1755362518" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1755029862"></script>
+    <script src="/js/jquery-3.3.1.min.js?1755362518"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1755029862"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1755029862"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1755362518"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1755362518"></script>
 <script type="text/javascript">
     
         var baseurl = "\/\/localhost:1313\/\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1755029862"></script>
+<script type="text/javascript" src="/js/search.js?1755362518"></script>
 
     
   </div>
@@ -82,13 +82,13 @@
  
   
     
-    <li data-nav-id="/vi/1-introduce/" title="Giới thiệu" class="dd-item 
+    <li data-nav-id="/vi/1-introduce/" title="Giới thiệu" class="dd-item 
         
         
         
         ">
       <a href="/vi/1-introduce/">
-           <b> 1. </b> Giới thiệu
+           <b> 1. </b> Giới thiệu
           
             <i class="fas fa-check read-icon"></i>
           
@@ -108,13 +108,39 @@
  
   
     
-    <li data-nav-id="/vi/2-prerequiste/" title="Các bước chuẩn bị" class="dd-item 
+    <li data-nav-id="/vi/2-prerequiste/" title="Chuẩn bị" class="dd-item 
         
         
         
         ">
       <a href="/vi/2-prerequiste/">
-           <b> 2. </b> Các bước chuẩn bị
+           <b> 2. </b> Chuẩn bị
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/vi/3-migrationhub/" title="AWS Migration Hub" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/vi/3-migrationhub/">
+           <b> 3. </b> AWS Migration Hub
           
             <i class="fas fa-check read-icon"></i>
           
@@ -139,44 +165,13 @@
  
   
     
-    <li data-nav-id="/vi/2-prerequiste/2.1-createec2/" title="Chuẩn bị VPC và EC2" class="dd-item 
+    <li data-nav-id="/vi/3-migrationhub/3.1-create-application/" title="Tạo Application" class="dd-item 
         
         
         
         ">
-      <a href="/vi/2-prerequiste/2.1-createec2/">
-           <b> 2.1 </b> Chuẩn bị VPC và EC2
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/2-prerequiste/2.1-createec2/2.1.1-createvpc/" title="Tạo VPC " class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/2-prerequiste/2.1-createec2/2.1.1-createvpc/">
-           <b> 2.1.1 </b> Tạo VPC 
+      <a href="/vi/3-migrationhub/3.1-create-application/">
+           <b> 3.1. </b> Tạo Application
           
             <i class="fas fa-check read-icon"></i>
           
@@ -198,13 +193,13 @@
  
   
     
-    <li data-nav-id="/vi/2-prerequiste/2.1-createec2/2.1.2-createpublicsubnet/" title="Tạo Public subnet" class="dd-item 
+    <li data-nav-id="/vi/3-migrationhub/3.2-create-s3-and-upload/" title="Tạo S3 Bucket &amp; Upload file" class="dd-item 
         
         
         
         ">
-      <a href="/vi/2-prerequiste/2.1-createec2/2.1.2-createpublicsubnet/">
-           <b> 2.1.2 </b> Tạo Public subnet
+      <a href="/vi/3-migrationhub/3.2-create-s3-and-upload/">
+           <b> 3.2. </b> Tạo S3 Bucket &amp; Upload file
           
             <i class="fas fa-check read-icon"></i>
           
@@ -226,13 +221,13 @@
  
   
     
-    <li data-nav-id="/vi/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/" title="Tạo Private subnet" class="dd-item 
+    <li data-nav-id="/vi/3-migrationhub/3.3-import-servers/" title="Import Servers từ S3" class="dd-item 
         
         
         
         ">
-      <a href="/vi/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/">
-           <b> 2.1.3 </b> Tạo Private subnet
+      <a href="/vi/3-migrationhub/3.3-import-servers/">
+           <b> 3.3. </b> Import Servers từ S3
           
             <i class="fas fa-check read-icon"></i>
           
@@ -254,106 +249,13 @@
  
   
     
-    <li data-nav-id="/vi/2-prerequiste/2.1-createec2/2.1.4-createsecgroup/" title="Tạo các security group" class="dd-item 
+    <li data-nav-id="/vi/3-migrationhub/3.4-attach-servers/" title="Gắn Servers vào Application" class="dd-item 
         
         
         
         ">
-      <a href="/vi/2-prerequiste/2.1-createec2/2.1.4-createsecgroup/">
-           <b> 2.1.4 </b> Tạo các security group
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/2-prerequiste/2.1-createec2/2.1.5-createec2linux/" title="Tạo Public Linux EC2" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/2-prerequiste/2.1-createec2/2.1.5-createec2linux/">
-           <b> 2.1.5 </b> Tạo Public Linux EC2
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/2-prerequiste/2.1-createec2/2.1.6-createec2windows/" title="Tạo Private Windows EC2" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/2-prerequiste/2.1-createec2/2.1.6-createec2windows/">
-           <b> 2.1.6 </b> Tạo Private Windows EC2
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/2-prerequiste/2.2-createiamrole/" title="Tạo IAM Role" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/2-prerequiste/2.2-createiamrole/">
-           <b> 2.2 </b> Tạo IAM Role
+      <a href="/vi/3-migrationhub/3.4-attach-servers/">
+           <b> 3.4. </b> Gắn Servers vào Application
           
             <i class="fas fa-check read-icon"></i>
           
@@ -382,13 +284,13 @@
  
   
     
-    <li data-nav-id="/vi/3-accessibilitytoinstances/" title="Tạo kết nối đến máy chủ EC2" class="dd-item 
+    <li data-nav-id="/vi/4-networksetup/" title="Thiết lập Mạng" class="dd-item 
         
         
         
         ">
-      <a href="/vi/3-accessibilitytoinstances/">
-           <b> 3. </b> Tạo kết nối đến máy chủ EC2
+      <a href="/vi/4-networksetup/">
+           <b> 4. </b> Thiết lập Mạng
           
             <i class="fas fa-check read-icon"></i>
           
@@ -413,13 +315,13 @@
  
   
     
-    <li data-nav-id="/vi/3-accessibilitytoinstances/3.1-public-instance/" title="Kết nối đến máy chủ Public" class="dd-item 
+    <li data-nav-id="/vi/4-networksetup/4.1-create-vpc/" title="Tạo VPC" class="dd-item 
         
         
         
         ">
-      <a href="/vi/3-accessibilitytoinstances/3.1-public-instance/">
-           <b> 3.1. </b> Kết nối đến máy chủ Public
+      <a href="/vi/4-networksetup/4.1-create-vpc/">
+           <b> 4.1. </b> Tạo VPC
           
             <i class="fas fa-check read-icon"></i>
           
@@ -441,44 +343,13 @@
  
   
     
-    <li data-nav-id="/vi/3-accessibilitytoinstances/3.2-private-instance/" title="Tạo kết nối đến máy chủ EC2 Private" class="dd-item 
+    <li data-nav-id="/vi/4-networksetup/4.2-create-nat/" title="Tạo NAT Gateway" class="dd-item 
         
         
         
         ">
-      <a href="/vi/3-accessibilitytoinstances/3.2-private-instance/">
-           <b> 3.2. </b> Tạo kết nối đến máy chủ EC2 Private
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.1-enablevpcdns/" title="Kích hoạt DNS hostnames" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.1-enablevpcdns/">
-           <b> 3.2.1 </b> Kích hoạt DNS hostnames
+      <a href="/vi/4-networksetup/4.2-create-nat/">
+           <b> 4.2. </b> Tạo NAT Gateway
           
             <i class="fas fa-check read-icon"></i>
           
@@ -500,44 +371,13 @@
  
   
     
-    <li data-nav-id="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/" title="Tạo VPC Endpoint" class="dd-item 
+    <li data-nav-id="/vi/4-networksetup/4.3-route-tables/" title="Route Tables" class="dd-item 
         
         
         
         ">
-      <a href="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/">
-           <b> 3.2.2 </b> Tạo VPC Endpoint
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.1-endpointssm/" title="Tạo Endpoint ssm" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.1-endpointssm/">
-           <b> 3.2.2.1 </b> Tạo Endpoint ssm
+      <a href="/vi/4-networksetup/4.3-route-tables/">
+           <b> 4.3. </b> Route Tables
           
             <i class="fas fa-check read-icon"></i>
           
@@ -559,237 +399,13 @@
  
   
     
-    <li data-nav-id="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.2-endpointssmmessages/" title="Tạo Endpoint ssmmessages" class="dd-item 
+    <li data-nav-id="/vi/4-networksetup/4.4-vpc-endpoints/" title="VPC Endpoints" class="dd-item 
         
         
         
         ">
-      <a href="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.2-endpointssmmessages/">
-           <b> 3.2.2.2 </b> Tạo Endpoint ssmmessages
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.3-endpointec2messages/" title="Tạo Endpoint ec2messages" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.3-endpointec2messages/">
-           <b> 3.2.2.3 </b> Tạo Endpoint ec2messages
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.3-connectec2/" title="Kết nối EC2 Private" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.3-connectec2/">
-           <b> 3.2.3 </b> Kết nối EC2 Private
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/4-s3log/" title="Quản lý session logs" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/4-s3log/">
-           <b> 4. </b> Quản lý session logs
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/4-s3log/4.1-updateiamrole/" title="Cập nhật IAM Role" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/4-s3log/4.1-updateiamrole/">
-           <b> 4.1 </b> Cập nhật IAM Role
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/4-s3log/4.2-creates3bucket/" title="Tạo S3 Bucket" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/4-s3log/4.2-creates3bucket/">
-           <b> 4.2 </b> Tạo S3 Bucket
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/4-s3log/4.3-creategwes3/" title="Tạo S3 Gateway endpoint" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/4-s3log/4.3-creategwes3/">
-           <b> 4.3 </b> Tạo S3 Gateway endpoint
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/vi/4-s3log/4.4-configsessionlogs/" title="Theo dõi session logs" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/vi/4-s3log/4.4-configsessionlogs/">
-           <b> 4.4 </b> Theo dõi session logs
+      <a href="/vi/4-networksetup/4.4-vpc-endpoints/">
+           <b> 4.4. </b> VPC Endpoints
           
             <i class="fas fa-check read-icon"></i>
           
@@ -818,13 +434,229 @@
  
   
     
-    <li data-nav-id="/vi/5-portfwd/" title="Port Forwarding" class="dd-item 
+    <li data-nav-id="/vi/5-iam-ec2/" title="IAM &amp; EC2" class="dd-item 
         
         
         
         ">
-      <a href="/vi/5-portfwd/">
-           <b> 5. </b> Port Forwarding
+      <a href="/vi/5-iam-ec2/">
+           <b> 5. </b> IAM &amp; EC2
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/vi/5-iam-ec2/5.1-create-role/" title="Tạo IAM Role" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/vi/5-iam-ec2/5.1-create-role/">
+           <b> 5.1. </b> Tạo IAM Role
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/vi/5-iam-ec2/5.2-launch-ec2/" title="Khởi tạo EC2 Instance" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/vi/5-iam-ec2/5.2-launch-ec2/">
+           <b> 5.2. </b> Khởi tạo EC2 Instance
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/vi/6-launchwizard/" title="Triển khai SAP (Launch Wizard)" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/vi/6-launchwizard/">
+           <b> 6. </b> Triển khai SAP (Launch Wizard)
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/vi/6-launchwizard/6.1-workload-pattern/" title="Chọn Workload &amp; Pattern" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/vi/6-launchwizard/6.1-workload-pattern/">
+           <b> 6.1. </b> Chọn Workload &amp; Pattern
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/vi/6-launchwizard/6.2-configure/" title="Cấu hình triển khai" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/vi/6-launchwizard/6.2-configure/">
+           <b> 6.2. </b> Cấu hình triển khai
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/vi/6-launchwizard/6.3-review-deploy/" title="Kiểm tra &amp; Deploy" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/vi/6-launchwizard/6.3-review-deploy/">
+           <b> 6.3. </b> Kiểm tra &amp; Deploy
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/vi/7-verification/" title="Kiểm tra" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/vi/7-verification/">
+           <b> 7. </b> Kiểm tra
           
             <i class="fas fa-check read-icon"></i>
           
@@ -844,13 +676,13 @@
  
   
     
-    <li data-nav-id="/vi/6-cleanup/" title="Dọn dẹp tài nguyên  " class="dd-item 
+    <li data-nav-id="/vi/8-cleanup/" title="Dọn dẹp" class="dd-item 
         
         
         
         ">
-      <a href="/vi/6-cleanup/">
-          <b>6. </b>Dọn dẹp tài nguyên  
+      <a href="/vi/8-cleanup/">
+           <b> 8. </b> Dọn dẹp
           
             <i class="fas fa-check read-icon"></i>
           
@@ -988,18 +820,20 @@
 </span>
 
  
-<h1 id="lam-viêc-vơi-amazon-system-manager---session-manager">Làm việc với Amazon System Manager - Session Manager</h1>
+<h1 id="di-chuyển-hệ-thống-erp-với-sap-trên-aws">Di chuyển hệ thống ERP với SAP trên AWS</h1>
 <h3 id="tổng-quan">Tổng quan</h3>
-<p>Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.</p>
-<p><img alt="ConnectPrivate" src="/images/arc-log.png"></p>
+<p>Workshop hướng dẫn di chuyển ERP/SAP lên AWS: Migration Hub, import server, mạng (VPC, NAT, endpoints), IAM, EC2, và triển khai SAP bằng AWS Launch Wizard.</p>
+<p><img alt="Architecture" src="/images/architecture.png"></p>
 <h3 id="nội-dung">Nội dung</h3>
 <ol>
-<li><a href="/vi/1-introduce/">Giới thiệu</a></li>
-<li><a href="/vi/2-prerequiste/">Các bước chuẩn bị</a></li>
-<li><a href="3-Accessibilitytoinstance/">Tạo kết nối đến máy chủ EC2</a></li>
-<li><a href="/vi/4-s3log/">Quản lý session logs</a></li>
-<li><a href="/vi/5-portfwd/">Port Forwarding</a></li>
-<li><a href="/vi/6-cleanup/">Dọn dẹp tài nguyên</a></li>
+<li><a href="/vi/1-introduce/">Giới thiệu</a></li>
+<li><a href="/vi/2-prerequiste/">Chuẩn bị</a></li>
+<li><a href="/vi/3-migrationhub/">AWS Migration Hub</a></li>
+<li><a href="/vi/4-networksetup/">Thiết lập mạng</a></li>
+<li><a href="/vi/5-iam-ec2/">IAM &amp; EC2</a></li>
+<li><a href="/vi/6-launchwizard/">Triển khai SAP (Launch Wizard)</a></li>
+<li><a href="/vi/7-verification/">Kiểm tra</a></li>
+<li><a href="/vi/8-cleanup/">Dọn dẹp</a></li>
 </ol>
 	
   
@@ -1058,10 +892,93 @@
 
                     
                     
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                         
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
                     
                         
             
@@ -1142,119 +1059,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
             
         
                     
@@ -1305,44 +1109,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
             
         
                     
@@ -1360,22 +1126,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -1470,7 +1220,7 @@
 	 
 		
 		
-			<a class="nav nav-next" href="/vi/1-introduce/" title="Giới thiệu" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/vi/1-introduce/" title="Giới thiệu" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1480,19 +1230,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1755029862"></script>
-    <script src="/js/perfect-scrollbar.min.js?1755029862"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1755029862"></script>
-    <script src="/js/jquery.sticky.js?1755029862"></script>
-    <script src="/js/featherlight.min.js?1755029862"></script>
-    <script src="/js/highlight.pack.js?1755029862"></script>
+    <script src="/js/clipboard.min.js?1755362518"></script>
+    <script src="/js/perfect-scrollbar.min.js?1755362518"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1755362518"></script>
+    <script src="/js/jquery.sticky.js?1755362518"></script>
+    <script src="/js/featherlight.min.js?1755362518"></script>
+    <script src="/js/highlight.pack.js?1755362518"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1755029862"></script>
-    <script src="/js/learn.js?1755029862"></script>
-    <script src="/js/hugo-learn.js?1755029862"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1755362518"></script>
+    <script src="/js/learn.js?1755362518"></script>
+    <script src="/js/hugo-learn.js?1755362518"></script>
 
-    <link href="/mermaid/mermaid.css?1755029862" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1755029862"></script>
+    <link href="/mermaid/mermaid.css?1755362518" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1755362518"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

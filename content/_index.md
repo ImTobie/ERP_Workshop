@@ -1,21 +1,24 @@
 ---
-title : "Session Management"
-date :  "`r Sys.Date()`" 
-weight : 1 
+title : "ERP System Migration with SAP on AWS"
+date :  "`r Sys.Date()`"
+weight : 1
 chapter : false
 ---
-# Work with Amazon System Manager - Session Manager
+
+# ERP System Migration with SAP on AWS
 
 ### Overall
- In this lab, you'll learn the basics and practice of Amazon  System Manager - Session Manager
-. Perform creating public and private instance connections. 
+In this lab, you will migrate an ERP system running SAP workloads to AWS.  
+You will set up AWS Migration Hub, import server inventory, build the network (VPC, NAT, endpoints), configure IAM, launch EC2, and deploy SAP using AWS Launch Wizard.
 
-![ConnectPrivate](/images/arc-log.png) 
+![Architecture](/images/architecture.png)
 
 ### Content
- 1. [Introduction ](1-introduce/)
- 2. [Preparation](2-prerequiste/)
- 3. [Connect to EC2 instance](3-accessibilitytoinstances/)
- 4. [Manage session logs](4-s3log/)
- 5. [Port Forwarding](5-Portfwd/)
- 6. [Clean up resources](6-cleanup/)
+1. [Introduction](1-Introduce/)
+2. [Preparation](2-Prerequiste/)
+3. [AWS Migration Hub](3-MigrationHub/)
+4. [Network Setup](4-NetworkSetup/)
+5. [IAM & EC2](5-IAM-EC2/)
+6. [SAP Deployment (Launch Wizard)](6-LaunchWizard/)
+7. [Verification](7-Verification/)
+8. [Cleanup](8-Cleanup/)

@@ -2,8 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/3-migrationhub/3.1-create-application/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/3-migrationhub/3.1-create-application/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/3-migrationhub/3.1-create-application/"
+                />
+  </url><url>
+    <loc>//localhost:1313/5-iam-ec2/5.1-create-role/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/5-iam-ec2/5.1-create-role/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/5-iam-ec2/5.1-create-role/"
+                />
+  </url><url>
+    <loc>//localhost:1313/4-networksetup/4.1-create-vpc/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/4-networksetup/4.1-create-vpc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/4-networksetup/4.1-create-vpc/"
+                />
+  </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>1970-01-01T07:33:42+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -13,54 +48,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="//localhost:1313/"
-                />
-  </url><url>
-    <loc>//localhost:1313/3-accessibilitytoinstances/3.1-public-instance/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/3-accessibilitytoinstances/3.1-public-instance/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/3-accessibilitytoinstances/3.1-public-instance/"
-                />
-  </url><url>
-    <loc>//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.1-endpointssm/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.1-endpointssm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.1-endpointssm/"
-                />
-  </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.1-createec2/2.1.1-createvpc/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.1-createec2/2.1.1-createvpc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.1-createec2/2.1.1-createvpc/"
-                />
-  </url><url>
-    <loc>//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.1-enablevpcdns/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.1-enablevpcdns/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.1-enablevpcdns/"
                 />
   </url><url>
     <loc>//localhost:1313/1-introduce/</loc>
@@ -75,100 +62,64 @@
                 href="//localhost:1313/1-introduce/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.1-createec2/</loc>
+    <loc>//localhost:1313/6-launchwizard/6.1-workload-pattern/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.1-createec2/"
+                href="//localhost:1313/vi/6-launchwizard/6.1-workload-pattern/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.1-createec2/"
+                href="//localhost:1313/6-launchwizard/6.1-workload-pattern/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-s3log/4.1-updateiamrole/</loc>
+    <loc>//localhost:1313/6-launchwizard/6.2-configure/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-s3log/4.1-updateiamrole/"
+                href="//localhost:1313/vi/6-launchwizard/6.2-configure/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-s3log/4.1-updateiamrole/"
+                href="//localhost:1313/6-launchwizard/6.2-configure/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/</loc>
+    <loc>//localhost:1313/4-networksetup/4.2-create-nat/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-accessibilitytoinstances/3.2-private-instance/"
+                href="//localhost:1313/vi/4-networksetup/4.2-create-nat/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/"
+                href="//localhost:1313/4-networksetup/4.2-create-nat/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.2-endpointssmmessages/</loc>
+    <loc>//localhost:1313/3-migrationhub/3.2-create-s3-and-upload/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.2-endpointssmmessages/"
+                href="//localhost:1313/vi/3-migrationhub/3.2-create-s3-and-upload/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.2-endpointssmmessages/"
+                href="//localhost:1313/3-migrationhub/3.2-create-s3-and-upload/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.2-createiamrole/</loc>
+    <loc>//localhost:1313/5-iam-ec2/5.2-launch-ec2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.2-createiamrole/"
+                href="//localhost:1313/vi/5-iam-ec2/5.2-launch-ec2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.2-createiamrole/"
-                />
-  </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.1-createec2/2.1.2-createpublicsubnet/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.1-createec2/2.1.2-createpublicsubnet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.1-createec2/2.1.2-createpublicsubnet/"
-                />
-  </url><url>
-    <loc>//localhost:1313/4-s3log/4.2-creates3bucket/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/4-s3log/4.2-creates3bucket/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/4-s3log/4.2-creates3bucket/"
-                />
-  </url><url>
-    <loc>//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/"
+                href="//localhost:1313/5-iam-ec2/5.2-launch-ec2/"
                 />
   </url><url>
     <loc>//localhost:1313/2-prerequiste/</loc>
@@ -183,149 +134,136 @@
                 href="//localhost:1313/2-prerequiste/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-accessibilitytoinstances/</loc>
+    <loc>//localhost:1313/3-migrationhub/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-accessibilitytoinstances/"
+                href="//localhost:1313/vi/3-migrationhub/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-accessibilitytoinstances/"
+                href="//localhost:1313/3-migrationhub/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.3-connectec2/</loc>
+    <loc>//localhost:1313/3-migrationhub/3.3-import-servers/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.3-connectec2/"
+                href="//localhost:1313/vi/3-migrationhub/3.3-import-servers/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.3-connectec2/"
+                href="//localhost:1313/3-migrationhub/3.3-import-servers/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.3-endpointec2messages/</loc>
+    <loc>//localhost:1313/6-launchwizard/6.3-review-deploy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.3-endpointec2messages/"
+                href="//localhost:1313/vi/6-launchwizard/6.3-review-deploy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.3-endpointec2messages/"
+                href="//localhost:1313/6-launchwizard/6.3-review-deploy/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/</loc>
+    <loc>//localhost:1313/4-networksetup/4.3-route-tables/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/"
+                href="//localhost:1313/vi/4-networksetup/4.3-route-tables/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/"
+                href="//localhost:1313/4-networksetup/4.3-route-tables/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-s3log/4.3-creategwes3/</loc>
+    <loc>//localhost:1313/3-migrationhub/3.4-attach-servers/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-s3log/4.3-creategwes3/"
+                href="//localhost:1313/vi/3-migrationhub/3.4-attach-servers/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-s3log/4.3-creategwes3/"
+                href="//localhost:1313/3-migrationhub/3.4-attach-servers/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.1-createec2/2.1.4-createsecgroup/</loc>
+    <loc>//localhost:1313/4-networksetup/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.1-createec2/2.1.4-createsecgroup/"
+                href="//localhost:1313/vi/4-networksetup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.1-createec2/2.1.4-createsecgroup/"
+                href="//localhost:1313/4-networksetup/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-s3log/</loc>
+    <loc>//localhost:1313/4-networksetup/4.4-vpc-endpoints/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-s3log/"
+                href="//localhost:1313/vi/4-networksetup/4.4-vpc-endpoints/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-s3log/"
+                href="//localhost:1313/4-networksetup/4.4-vpc-endpoints/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-s3log/4.4-configsessionlogs/</loc>
+    <loc>//localhost:1313/5-iam-ec2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-s3log/4.4-configsessionlogs/"
+                href="//localhost:1313/vi/5-iam-ec2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-s3log/4.4-configsessionlogs/"
+                href="//localhost:1313/5-iam-ec2/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.1-createec2/2.1.5-createec2linux/</loc>
+    <loc>//localhost:1313/6-launchwizard/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.1-createec2/2.1.5-createec2linux/"
+                href="//localhost:1313/vi/6-launchwizard/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.1-createec2/2.1.5-createec2linux/"
+                href="//localhost:1313/6-launchwizard/"
                 />
   </url><url>
-    <loc>//localhost:1313/5-portfwd/</loc>
+    <loc>//localhost:1313/7-verification/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/5-portfwd/"
+                href="//localhost:1313/vi/7-verification/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/5-portfwd/"
+                href="//localhost:1313/7-verification/"
                 />
   </url><url>
-    <loc>//localhost:1313/6-cleanup/</loc>
-    <lastmod>1970-01-01T07:33:42+07:00</lastmod>
+    <loc>//localhost:1313/8-cleanup/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/6-cleanup/"
+                href="//localhost:1313/vi/8-cleanup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/6-cleanup/"
-                />
-  </url><url>
-    <loc>//localhost:1313/2-prerequiste/2.1-createec2/2.1.6-createec2windows/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/2-prerequiste/2.1-createec2/2.1.6-createec2windows/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/2-prerequiste/2.1-createec2/2.1.6-createec2windows/"
+                href="//localhost:1313/8-cleanup/"
                 />
   </url><url>
     <loc>//localhost:1313/categories/</loc>

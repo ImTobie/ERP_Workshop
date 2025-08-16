@@ -1,22 +1,23 @@
 ---
-title : "Session Management"
-date :  "`r Sys.Date()`" 
-weight : 1 
+title : "Di chuyển hệ thống ERP với SAP trên AWS"
+date :  "`r Sys.Date()`"
+weight : 1
 chapter : false
 ---
-# Làm việc với Amazon System Manager - Session Manager
+
+# Di chuyển hệ thống ERP với SAP trên AWS
 
 ### Tổng quan
+Workshop hướng dẫn di chuyển ERP/SAP lên AWS: Migration Hub, import server, mạng (VPC, NAT, endpoints), IAM, EC2, và triển khai SAP bằng AWS Launch Wizard.
 
- Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.
-
-![ConnectPrivate](/images/arc-log.png) 
+![Architecture](/images/architecture.png)
 
 ### Nội dung
-
- 1. [Giới thiệu](1-introduce/)
- 2. [Các bước chuẩn bị](2-Prerequiste/)
- 3. [Tạo kết nối đến máy chủ EC2](3-Accessibilitytoinstance/)
- 4. [Quản lý session logs](4-s3log/)
- 5. [Port Forwarding](5-Portfwd/)
- 6. [Dọn dẹp tài nguyên](6-cleanup/)
+1. [Giới thiệu](1-Introduce/)
+2. [Chuẩn bị](2-Prerequiste/)
+3. [AWS Migration Hub](3-MigrationHub/)
+4. [Thiết lập mạng](4-NetworkSetup/)
+5. [IAM & EC2](5-IAM-EC2/)
+6. [Triển khai SAP (Launch Wizard)](6-LaunchWizard/)
+7. [Kiểm tra](7-Verification/)
+8. [Dọn dẹp](8-Cleanup/)
